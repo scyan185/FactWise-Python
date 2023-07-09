@@ -1,0 +1,17 @@
+{
+  "teams": [
+    {
+      "team_id": "1",
+      "name": "A Team",
+      "members": [
+        "1",
+        "2",
+        "3"
+      ],
+      "display_name": "",
+      "creation_time": 1688916751,
+      "description": "Hi, This is Team A again",
+      "admin": "1"
+    }
+  ]
+}

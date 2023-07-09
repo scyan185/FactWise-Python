@@ -1,0 +1,30 @@
+{
+  "boards": [
+    {
+      "board_id": "1",
+      "name": "Board C",
+      "team_id": "2",
+      "description": "This is the first task",
+      "creation_time": "2023-07-08 4:25:00",
+      "status": "Closed",
+      "tasks": [
+        {
+          "task_id": "1",
+          "title": "Task 2",
+          "description": "This is the first task",
+          "user_id": "2",
+          "creation_time": "2023-07-08 4:25:00",
+          "status": "COMPLETE"
+        },
+        {
+          "task_id": "2",
+          "title": "Task 3",
+          "description": "This is the first task",
+          "user_id": "3",
+          "creation_time": "2023-07-08 4:25:00",
+          "status": "COMPLETE"
+        }
+      ]
+    }
+  ]
+}
