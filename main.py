@@ -76,12 +76,12 @@ def main():
 
     # ProjectBoardBase API calls
     # Create a board
-    request_create_board = '{"name" : "Board E","description" : "This is Board E",' \
-                  '"team_id" : "2", "creation_time" : "2023-07-09 5:23:08"}'
+    request_create_board = '{"name" : "Board G","description" : "This is Board G",' \
+                  '"team_id" : "4", "creation_time" : "2023-07-10 5:23:08"}'
     response_create_board = board_base.create_board(request_create_board)
     print(response_create_board)
 
-    # Add tasks to a board
+    #Add tasks to a board
     request_add_tasks_to_board = '{"title": "Task 3", "description": "This is the first task", "user_id": "3", "creation_time": "2023-07-08 4:25:00"}'
     response_add_tasks_to_board = board_base.add_task(request_add_tasks_to_board)
     print(response_add_tasks_to_board)

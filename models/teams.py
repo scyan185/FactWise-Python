@@ -31,4 +31,3 @@ class Team:
         cls.creation_time += 1
         return cls.creation_time
 
-

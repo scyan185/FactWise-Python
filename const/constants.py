@@ -10,5 +10,3 @@ BOARD_STATUS_CLOSED = "Closed"
 TASK_STATUS_OPEN = "Open"
 TASK_STATUS_PROGRESS = "In_progress"
 TASK_STATUS_CLOSED = "Complete"
-
-

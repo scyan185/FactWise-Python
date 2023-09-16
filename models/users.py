@@ -44,9 +44,3 @@ class User:
         else:
             description += f", creation time: {User.creation_time}"
         return description
-
-
-
-
-
-

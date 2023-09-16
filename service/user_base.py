@@ -185,6 +185,8 @@ class UserBase:
 
         teams = self.team_data_layer.read_teams()
         team = next((t for t in teams if id in t.members), None)
+        if team == None:
+            return ("No members found for the team")
         team_details = []
         for user_id in team.members:
             if id == user_id:
@@ -195,3 +197,4 @@ class UserBase:
                 team_details.append(team_data)
 
         return team_details
+

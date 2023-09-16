@@ -1,18 +1,11 @@
-Board: Board C
+Board: Board G
 Description: This is the first task
 
 Tasks:
 Task ID: 1
-Title: Task 2
-Description: This is the first task
-User ID: 2
-Creation Time: 2023-07-08 4:25:00
-Status: COMPLETE
-
-Task ID: 2
 Title: Task 3
 Description: This is the first task
 User ID: 3
 Creation Time: 2023-07-08 4:25:00
-Status: COMPLETE
+Status: Open
 

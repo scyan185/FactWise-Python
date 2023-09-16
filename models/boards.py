@@ -1,7 +1,7 @@
 import time
 from const.constants import BOARD_STATUS_OPEN
 class Board:
-    def __init__(self, board_id: str, name: str, description: str, team_id: str, creation_time: str, tasks: list=None, status: str = BOARD_STATUS_OPEN):
+    def __init__(self, board_id: str, name: str, description: str, team_id: str, creation_time: str, tasks: list = None, status: str = BOARD_STATUS_OPEN):
         """
                 Initialize a Board object.
 
@@ -18,7 +18,7 @@ class Board:
         self.description = description
         self.team_id = team_id
         self.creation_time = creation_time
-        self.tasks = tasks
+        self.tasks = tasks if tasks is not None else []
         self.status = status
 
 
