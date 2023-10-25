@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Description
 
 My Application is a project management tool designed to facilitate collaboration and organization within teams. 
@@ -105,3 +106,7 @@ README.md: The README file that provides an overview of the application, install
 17) List Boards: The list_boards method in the ProjectBoardBase class retrieves the boards associated with a specific team. It takes the team ID as input and returns the corresponding boards.
 
 18) Export Board: The export_board method in the ProjectBoardBase class exports a board's information and tasks into a text file. It takes the board ID as input and returns the name of the created file.
+=======
+# FactWise-Python
+A project management tool to manage users and teams within an organisation.
+>>>>>>> origin/main
