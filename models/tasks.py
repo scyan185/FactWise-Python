@@ -19,5 +19,3 @@ class Task:
         self.user_id = user_id
         self.creation_time = creation_time
         self.status = status
-
-
